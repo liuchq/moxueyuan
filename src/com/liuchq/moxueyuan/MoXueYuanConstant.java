@@ -39,7 +39,7 @@ public class MoXueYuanConstant {
 
 
     /**
-     *设定程序运行时间  单位 秒
+     *设定程序运行时间  单位 秒 （一般可以设置你学习的课程中，时间最长的那个）
      */
     public static final int RUN_TIME = 600;
 
