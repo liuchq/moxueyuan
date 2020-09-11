@@ -31,6 +31,8 @@ public class StartStudy {
                     MoXueYuanStudy.courseStudyMethod(map.get(MoXueYuanEnum.COURSE_ID_NAME.getValue()),
                             map.get(MoXueYuanEnum.CHAPTER_ID_NAME.getValue()));
                 }
+                //执行间隔，设置1分钟即可
+                Thread.sleep(60000);
             }catch (FileNotFoundException e){
                 MoXueYuanLog.setLog("桌面文件没找到---"+MoXueYuanConstant.COURSE_ID_ADDRESS+e.getMessage(),e);
             }catch (IOException e){
